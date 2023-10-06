@@ -1,0 +1,198 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #0f0f0f;
+    padding: 0;
+    margin: 0;
+}
+body{
+    /*background: #f0f0f0;*/
+    background-image: url("/assets/img/firstRow/fancybg.png");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header{
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.9);
+}
+#logo{
+    padding-bottom: 1rem;
+
+}
+#logo a{
+    font-family: 'Deluxe', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0F0F0F;
+}
+.navmenu{
+    display: flex;
+
+    justify-content: space-between;
+}
+.navmenu ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    justify-content: space-around;
+}
+.navmenu li a{
+    color: #0f0f0f;
+}
+.btnPromo{
+
+    color: #1f6191 !important;
+    font-weight: bold;
+}
+#promo{
+    background-color: #c9c9c9;
+    border-top: 1px solid #4e4e4e;
+
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#firstRow{
+    display: flex;
+    /*background-image: url("/assets/img/firstRow/fancybg.png");*/
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#model img{
+    display: block;
+    width: 48rem;
+    object-fit: cover;
+
+}
+
+
+#welcome{
+    /*border: 1px solid #000;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#welcomeInfo h1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 55px;
+    padding: 0 2rem;
+    /*text-shadow: 3px 3px 3px #808080;*/
+    color: #0F0F0F;
+    font-family: 'Deluxe', sans-serif;
+}
+#welcomeInfo h2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0 2rem;
+    /*text-shadow: 3px 3px 3px #808080;*/
+    color: #0F0F0F;
+    font-family: 'Harabara', sans-serif;
+
+
+
+}
+#welcomeInfo p{
+    font-family: 'Harabara', sans-serif;
+    text-align: justify;
+    padding: 0 2rem;
+}
+
+#buttonsMenu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+#signButtons{
+    display: flex;
+    gap: 1rem;
+}
+
+.menuBtn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'Harabara', sans-serif;
+    background-color: #5986a6;
+    /*font-weight: bold;*/
+    border: 1px solid #0F0F0F;
+    border-radius: 15px;
+    box-shadow: 2px 1px 1px #808080;
+
+}
+
+#secondRow{
+    height: 110vh;
+    display: flex;
+    background-image: url("/assets/img/secondRow/cities/bgTokyo.png") ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#imgList{
+    display: flex;
+    /*border: 1px solid #000;*/
+    align-items: center;
+    padding-left: 4rem;
+    /*justify-content: center;*/
+    /*width: 120vh;*/
+
+    /*background-color: #b7bdbf;*/
+}
+#imgList img{
+    /*border-radius: 10px;*/
+    max-width: 80vh;
+
+
+}
+
+#someCountries{
+    display: flex;
+    align-items: center;
+
+}
+
+
+#countryDescription{
+    padding-left: 1rem;
+    padding-right: 8rem;
+
+}
+
+#countryDescription h2, p{
+
+    color: #f9f9f9;
+
+}
+#countryDescription h2{
+    font-size: 35px;
+    font-family: 'Glegoo', serif;
+
+}
+#countryDescription p{
+    font-size: 18px;
+    font-family: 'Exo', sans-serif;
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+#countryDescription button{
+    font-family: 'Exo', 'sans-serif';
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: 1px solid #808080;
+}
+
+#three{
+    height: 110vh;
+}
